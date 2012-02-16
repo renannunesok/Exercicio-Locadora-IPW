@@ -1,0 +1,6 @@
+log/*.*
+*.php~
+*.css~
+*.html~
+*.js~
+.gitignore~

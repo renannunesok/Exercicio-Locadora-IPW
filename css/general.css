@@ -1,0 +1,53 @@
+@import url("reset.css");
+@import url("typography.css");
+@import url("idealforms/idealforms.css");
+
+/******************* CORPO DA PÁGINA *******************/
+body{
+    margin: 40px;
+}
+#container{
+    width: 700px;
+    margin: 0 auto;
+}
+/******************* SEÇÃO CADASTRO *******************/
+#cadCli h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: #2516bb;
+    padding-bottom: 10px;
+}
+/******************* SEÇÃO LISTAR *******************/
+#listCli table{
+    border: 1px solid #000;
+}
+#listCli .Tabletitle{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    border: 1px solid #000;
+    text-transform: uppercase;
+}
+#listCli td{
+    font-size: 15px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+#listCli h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #2516bb;
+}
+/******************* CLASSES EXTRAS *******************/
+.red{
+    color: #ff0000;
+    font-weight: bold;
+    font-size: 15px;
+}
+.erro{
+    text-align: center;
+    background: #fffac1;
+    border: 1px solid #ff0000;
+    border-radius: 3px; /* navegadores com suporte css3 */
+}
