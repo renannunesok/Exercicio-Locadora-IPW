@@ -187,7 +187,7 @@
                         <input type="hidden" name="cadastrar" value="yes">
                         <input type="submit" value="Confirmar">
                     </div>
-                </fielsset>
+                </fieldset>
             </form>
         </section>
     </div>
